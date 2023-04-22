@@ -2,11 +2,14 @@ package in.ashokit.binding;
 
 import org.springframework.stereotype.Component;
 
+import lombok.Data;
+
 @Component
+@Data
 public class UnlockForm {
 
-		private Integer userId;
 		private String email;
 		private String tempPasswrod;
-		private String password;
+		private String newPasswrod;
+		private String confirmPasswrod;
 }

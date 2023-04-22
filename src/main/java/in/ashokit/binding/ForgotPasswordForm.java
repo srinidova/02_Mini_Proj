@@ -6,9 +6,6 @@ import lombok.Data;
 
 @Component
 @Data
-public class LoginForm {
-	
+public class ForgotPasswordForm {
 	private String email;
-	private String password;
-
 }

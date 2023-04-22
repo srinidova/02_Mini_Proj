@@ -8,7 +8,7 @@ public class EnquiryController {
 	
 	@GetMapping("/dashboard")
 	public String getDashboard() {
-		System.out.println("-----------dashboard---------- ");
+		System.out.println("-----------dashboard-- called-------- ");
 		return "dashboard";
 	}
 	
